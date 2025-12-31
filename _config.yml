@@ -4,7 +4,7 @@ header-img: "img/cuta.png"
 tagline: "cn"
 description: "Freeeeeedom!"  # 一句话描述你的博客
 baseurl: "/docs"
-url: "https://easypos-ai.github.io"  # 此处填写你的博客地址
+url: "https://easypos-ai.github.io"  # GitHub Pages地址
 
 # About/contact
 owner:
