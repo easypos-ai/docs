@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Icons -->
-  <link rel="shortcut icon" href='{{ "/img/favicon.ico" | prepend: site.baseurl }}'>
+    <link rel="shortcut icon" href='{{ "/img/favicon.ico" | prepend: site.baseurl }}'>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}'>
@@ -31,5 +31,18 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- jQuery -->
+    <script src='{{ "/js/jquery.min.js" | prepend: site.baseurl }}'></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src='{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}'></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src='{{ "/js/clean-blog.min.js" | prepend: site.baseurl }}'></script>
+
+    <link href='{{ "/css/github.min.css" | prepend: site.baseurl }}' rel="stylesheet">
+    <link rel="stylesheet" href='{{ "/css/backtop.css" | prepend: site.baseurl }}'>
+    <script type="text/javascript" src='{{ "/js/backtop.js" | prepend: site.baseurl }}'></script>
 
 </head>
